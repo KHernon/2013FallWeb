@@ -6,6 +6,9 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" media="screen">    
   </head>
   <body>
+  	<?
+  		include 'navbar.php';
+  	?>
   	
  <h1>Links</h1>
     
