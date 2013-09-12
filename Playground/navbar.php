@@ -1,6 +1,6 @@
-<div>
-<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
-  <!-- Brand and toggle get grouped for better mobile display -->
+
+<div class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+  <div class='container'>
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
       <span class="sr-only">Toggle navigation</span>
@@ -14,9 +14,9 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
-      <li class="active"><a href="index.php">Home</a></li>
-      <li><a href="contacts.php">Contacts</a></li>
-      <li><a href="links.php">Links</a></li>
+      <li class='home <? if($location=='home') echo "active";?>'><a href="index.php">Home</a></li>
+      <li class='contact <? if($location=='contact') echo "active";?>'><a href="contacts.php">Contacts</a></li>
+      <li class='link <? if($location=='link') echo "active";?>'><a href="links.php">Links</a></li>
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
         <ul class="dropdown-menu">
@@ -29,13 +29,9 @@
       </li>
     </ul>
     
-    <ul class="nav navbar-nav navbar-right">      
-      <li class="dropdown">
+    <ul class="nav navbar-nav navbar-right">           
         <p>Signed in as <a href="#" class="navbar-link">Kurt Hernon</a>  </p>
-           
-        
-      </li>
     </ul>
   </div><!-- /.navbar-collapse -->
-</nav>
+  </div>
 </div>

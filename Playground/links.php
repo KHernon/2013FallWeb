@@ -1,3 +1,6 @@
+<?
+	$location = 'link';
+?>
 <!DOCTYPE html>
 <html>
   <head>

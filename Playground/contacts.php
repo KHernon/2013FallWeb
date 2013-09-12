@@ -1,3 +1,6 @@
+<?
+	$location = 'contact';
+?>
 <!DOCTYPE html>
 <html>
   <head>
