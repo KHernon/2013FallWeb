@@ -1,19 +1,8 @@
-<!---<?
-	$pages = array('home'=> array(
-					'url' => 'index.php',
-					'section' => 'home',
-					'title' => 'Home'),
-				 'links' => 'links.php', 
-				 'contacts' => 'contacts.php');
-					
+<?
 	$location = 'home';
 	
-	$name = $pages[$location];	
-	$msg = "Hello $name[title]";
-	
-	
 ?>
---->
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -62,5 +51,12 @@
     <script src="//code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="Scripts/main.js"></script>
+    <script type="text/javascript">
+    	$(function(){
+    		$(".nav .home").addClass("active");
+    	});
+    	
+    </script>
   </body>
 </html>

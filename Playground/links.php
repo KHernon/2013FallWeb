@@ -6,7 +6,10 @@
   <head>
     <title>Bootstrap 101 Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" media="screen">    
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" media="screen">   
+    <style type ="text/css">
+    	body {padding-top: 70px;}
+    </style>
   </head>
   <body>
   	<?
@@ -20,5 +23,11 @@
     <script src="//code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript>"
+    	$(function(){
+    		$(".nav .links").addClass("active");
+    	});
+    	
+    </script>
   </body>
 </html>
