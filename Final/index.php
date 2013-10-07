@@ -1,3 +1,11 @@
+<? include 'inc/_global.php'; ?>
+
+<?
+	$conn = GetConnection();
+	$result = $conn->query('SELECT * FROM 2013Fall_Keywords');
+	$rs = $result->fetch_assoc();
+
+?>
 <!DOCTYPE html>
 <html>
   <head>
