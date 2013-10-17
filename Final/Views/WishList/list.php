@@ -1,13 +1,12 @@
 <link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/jquery.dataTables.min.css" type="text/css" rel="stylesheet" />
 <div class="container">
 	
-	<h2>Pictures</h2>
+	<h2>WishList</h2>
 	
 	<table class="table table-hover table-bordered table-striped">
 		<thead>
 		<tr>
-			<th>Link</th>		
-			<th>Name</th>				
+			<th>Name</th>						
 					
 			<th></th>
 		</tr>
@@ -15,8 +14,7 @@
 		<tbody>
 		<? foreach ($model as $rs): ?>
 			<tr>
-				<td><?=$rs['Link']?></td>
-				<td><?=$rs['Name']?></td>
+				<td><?=$rs['Name']?></td>		
 					<td>
 					
 				</td>

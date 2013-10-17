@@ -15,8 +15,9 @@
 		<? foreach ($model as $rs): ?>
 			<tr>
 				<td><?=$rs['Value']?></td>
-						
-					</td>
+					<td>
+					
+				</td>
 			</tr>
 		<? endforeach ?>
 		</tbody>

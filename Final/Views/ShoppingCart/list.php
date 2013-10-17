@@ -1,13 +1,16 @@
 <link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/jquery.dataTables.min.css" type="text/css" rel="stylesheet" />
 <div class="container">
 	
-	<h2>Pictures</h2>
+	<h2>Shopping Cart</h2>
 	
 	<table class="table table-hover table-bordered table-striped">
 		<thead>
 		<tr>
-			<th>Link</th>		
-			<th>Name</th>				
+			<th>Price</th>	
+			<th>Tax</th>	
+			<th>Shipping Fee</th>	
+			<th>Quantity</th>	
+							
 					
 			<th></th>
 		</tr>
@@ -15,8 +18,10 @@
 		<tbody>
 		<? foreach ($model as $rs): ?>
 			<tr>
-				<td><?=$rs['Link']?></td>
-				<td><?=$rs['Name']?></td>
+				<td><?=$rs['PriceOfItems($)']?></td>
+				<td><?=$rs['TotalTax($)']?></td>
+				<td><?=$rs['TotalShippingFee($)']?></td>
+				<td><?=$rs['TotalQuantity']?></td>
 					<td>
 					
 				</td>
