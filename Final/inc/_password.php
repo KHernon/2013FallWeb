@@ -1,3 +1,3 @@
 <?
-$sql_password = 's821999';
+$sql_password = '';
 ?>
