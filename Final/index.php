@@ -3,7 +3,10 @@
 <?
 	$conn = GetConnection();
 	$result = $conn->query('SELECT * FROM 2013Fall_Users');
+	
+    foreach($result as $row) {
 	$rs = $result->fetch_assoc();
+	}
 
 ?>
 <!DOCTYPE html>

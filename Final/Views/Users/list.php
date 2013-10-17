@@ -17,7 +17,7 @@
 			<tr>
 				<td><?=$rs['FirstName']?></td>
 				<td><?=$rs['LastName']?></td>
-				<td><?=$rs['UserType']?></td>
+				<td><?=$rs['DateOfBirth']?></td>
 				<td>
 					
 				</td>
