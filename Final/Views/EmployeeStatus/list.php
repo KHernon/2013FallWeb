@@ -1,26 +1,25 @@
 <link href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/jquery.dataTables.min.css" type="text/css" rel="stylesheet" />
 <div class="container">
 	
-	<h2>Users</h2>
+	<h2>Employee Status</h2>
 	
 	<table class="table table-hover table-bordered table-striped">
 		<thead>
 		<tr>
-			<th>First Name</th>
-			<th>Last Name</th>
-			<th>Type</th>
+			<th>Status</th>	
+			<th>Description</th>			
+					
 			<th></th>
 		</tr>
 		</thead>
 		<tbody>
 		<? foreach ($model as $rs): ?>
 			<tr>
-				<td><?=$rs['FirstName']?></td>
-				<td><?=$rs['LastName']?></td>
-				<td><?=$rs['DateOfBirth']?></td>
-				<td>
-					
-				</td>
+				<td><?=$rs['Value']?></td>		
+				<td><?=$rs['Description']?></td>							
+					<td>
+						
+					</td>
 			</tr>
 		<? endforeach ?>
 		</tbody>

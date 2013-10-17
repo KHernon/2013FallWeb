@@ -2,8 +2,11 @@
 
 <?
 	$conn = GetConnection();
-	$result = $conn->query('SELECT * FROM 2013Fall_Users');
+	$result = $conn->query('SELECT * FROM 2013Fall_User');
+	
+    foreach($result as $row) {
 	$rs = $result->fetch_assoc();
+	}
 
 ?>
 <!DOCTYPE html>
