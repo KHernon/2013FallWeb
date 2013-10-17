@@ -23,7 +23,7 @@ include_once __DIR__ . '/../Models/PhoneType.php';
 include_once __DIR__ . '/../Models/Picture.php';
 include_once __DIR__ . '/../Models/Review.php';
 include_once __DIR__ . '/../Models/Salary.php';
-include_once __DIR__ . '/../Models/SecutiryQuestion.php';
+include_once __DIR__ . '/../Models/SecurityQuestion.php';
 include_once __DIR__ . '/../Models/ShippingAddress.php';
 include_once __DIR__ . '/../Models/ShippingMethod.php';
 include_once __DIR__ . '/../Models/ShoppingCart.php';
