@@ -44,8 +44,7 @@
 				          <li><a href="#">One more separated link</a></li>
 				        </ul>
 				      </li>
-      			</ul>
-				<p class="navbar-text pull-right">Signed in as <a href="#" class="navbar-link">Moshe Plotkin</a></p>
+      			</ul>				
 			</div>
 		</div>
 	</div>
