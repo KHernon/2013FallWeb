@@ -1,3 +1,3 @@
 <?
-$sql_password = '';
+$sql_password = ''';
 ?>
