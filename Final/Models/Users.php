@@ -42,4 +42,8 @@ class Users {
 		if(!$row['LastName']) $errors['LastName'] = 'id required';				
 		return count($errors) ? $errors : null;
 	}
+	static public function GetSelectListFor()
+	{
+		return fetch_all("SELECT id, FirstName, LastName FROM 2013Fall_User");
+	}
 }
