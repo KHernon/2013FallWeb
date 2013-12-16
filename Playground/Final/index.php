@@ -8,7 +8,7 @@
   <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
   <link rel="stylesheet" href="/resources/demos/style.css">
   <script>
-  <h4> 'Search in format http://cs.newpaltz.edu/~n02285069/2013/Playground/Final/source.php?term=new%20york, changing the term for your desired search'</h4>
+  <h4>'Search in format http://cs.newpaltz.edu/~n02285069/2013/Playground/Final/source.php?term=new%20york, changing the term for your desired search'</h4>
  <script type="text/javascript">
 $(document).ready(function(){
     $('#tags').keyup(function(){
