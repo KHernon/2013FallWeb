@@ -13,4 +13,9 @@ class ItemType{
 		$conn->close();
 		return $ret;
 	}
+	
+	static public function GetSelectListFor()
+	{
+		return fetch_all("SELECT id, Value FROM 2013Fall_ItemType");
+	}
 }

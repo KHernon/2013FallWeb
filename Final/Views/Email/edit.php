@@ -21,7 +21,7 @@
 			<label for="User_id" class="col-sm-2 control-label">User Name</label>
 			<div class="col-sm-10">
 				<select name="User_id" id="User_id" class="form-control ">
-					<? foreach (Users::GetSelectListFor() as $UserRs): ?>
+					<? foreach (User::GetSelectListFor() as $UserRs): ?>
 						<option value="<?=$UserRs['id']?>"><?=$UserRs['FirstName']?> <?=$UserRs['LastName']?></option>
 					<? endforeach; ?>
 				</select>

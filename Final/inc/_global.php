@@ -29,6 +29,7 @@ include_once __DIR__ . '/../Models/ShippingMethod.php';
 include_once __DIR__ . '/../Models/ShoppingCart.php';
 include_once __DIR__ . '/../Models/User.php';
 include_once __DIR__ . '/../Models/WishList.php';
+include_once __DIR__ . '/../Models/Auth.php';
 
 
 

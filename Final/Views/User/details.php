@@ -7,9 +7,7 @@
 	  <dt>created_at</dt>
 	  <dd><?=$model['created_at']?></dd>
 	  <dt>Password</dt>
-	  <dd><?=$model['Password']?></dd>
-	  <dt>DateOfBirth</dt>
-	  <dd><?=$model['DateOfBirth']?></dd>
+	  <dd><?=$model['Password']?></dd>	  
 	</dl>
 
 </div>

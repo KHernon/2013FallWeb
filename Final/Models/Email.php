@@ -37,7 +37,7 @@ class Email {
 				.	" Set Value='$row2[Value]'"
 				.	" WHERE id=$row2[id] ";
 		}else{
-			$sql = 	" Insert Into 2013Fall_Users (Value, User_id) "
+			$sql = 	" Insert Into 2013Fall_Email (Value, User_id) "
 				.	" Values ('$row2[Value]', '$row2[User_id]') ";			
 		}
 		
@@ -56,7 +56,7 @@ class Email {
 	static public function Delete($id)
 	{
 		$conn = GetConnection();
-		$sql =	" DELETE From 2013Fall_Users WHERE id=$id ";
+		$sql =	" DELETE From 2013Fall_Email WHERE id=$id ";
 				
 		$conn->query($sql);
 		//echo $sql; 
